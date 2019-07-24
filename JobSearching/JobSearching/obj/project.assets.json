@@ -4746,6 +4746,54 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "JobSearching.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "JobSearching.Data.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JobSearching.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobSearching.Data.dll": {}
+        }
+      },
+      "JobSearching.Data.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/JobSearching.Data.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobSearching.Data.Models.dll": {}
+        }
+      },
+      "JobSearching.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "JobSearching.Data": "1.0.0",
+          "JobSearching.Data.Models": "1.0.0",
+          "JobSearching.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JobSearching.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobSearching.Services.dll": {}
+        }
+      },
+      "JobSearching.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/JobSearching.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobSearching.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -12525,10 +12573,34 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "JobSearching.Data/1.0.0": {
+      "type": "project",
+      "path": "../JobSearching.Data/JobSearching.Data.csproj",
+      "msbuildProject": "../JobSearching.Data/JobSearching.Data.csproj"
+    },
+    "JobSearching.Data.Models/1.0.0": {
+      "type": "project",
+      "path": "../JobSearching.Data.Models/JobSearching.Data.Models.csproj",
+      "msbuildProject": "../JobSearching.Data.Models/JobSearching.Data.Models.csproj"
+    },
+    "JobSearching.Services/1.0.0": {
+      "type": "project",
+      "path": "../JobSearching.Services/JobSearching.Services.csproj",
+      "msbuildProject": "../JobSearching.Services/JobSearching.Services.csproj"
+    },
+    "JobSearching.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../JobSearching.ViewModels/JobSearching.ViewModels.csproj",
+      "msbuildProject": "../JobSearching.ViewModels/JobSearching.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "JobSearching.Data >= 1.0.0",
+      "JobSearching.Data.Models >= 1.0.0",
+      "JobSearching.Services >= 1.0.0",
+      "JobSearching.ViewModels >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12543,11 +12615,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\JobSearching.csproj",
+      "projectUniqueName": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching\\JobSearching.csproj",
       "projectName": "JobSearching",
-      "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\JobSearching.csproj",
+      "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching\\JobSearching.csproj",
       "packagesPath": "C:\\Users\\Vesko\\.nuget\\packages\\",
-      "outputPath": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\obj\\",
+      "outputPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12565,7 +12637,20 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj": {
+              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj"
+            },
+            "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj": {
+              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj"
+            },
+            "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj": {
+              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj"
+            },
+            "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj": {
+              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

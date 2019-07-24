@@ -1,0 +1,43 @@
+﻿@model JobSearching.ViewModels.EmployerDetailViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <environment include="Development">
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+</head>
+
+<style>
+    
+</style>
+
+<div class="row">
+    <div class="col-md-6">
+
+        <p class="headlineFont">Personal Information</p>
+        <pre class="whiteShade"><span class="textTypeFont">Name:     </span><span class="textFont">@Model.FirstName @if (Model.MiddleName != null) { Model.MiddleName.ToString(); } @Model.LastName</span></pre>
+        <pre class="whiteShade"><span class="textTypeFont">Works As: </span><span class="textFont">Manager of Human Resources</span></pre>
+
+        <hr class="horizontalRule" />
+
+        <p class="headlineFont">Company Information</p>
+        <pre class="whiteShade"><span class="textTypeFont">Name:     </span><span class="textFont">@Model.CompanyName</span> </pre>
+        <pre class="whiteShade"><span class="textTypeFont">Location: </span><span class="textFont">@Model.CompanyLocation</span> </pre>
+
+        <hr class="horizontalRule" />
+
+        <p class="headlineFont">Contacts</p>
+        <pre class="whiteShade"><span class="textTypeFont">Email: </span><span class="textFont">@Model.ContactEmail</span> </pre>
+        <pre class="whiteShade"><span class="textTypeFont">Phone: </span><span class="textFont">@Model.ContactPhone</span> </pre>
+    </div>
+
+    <div class="col-md-6">
+
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

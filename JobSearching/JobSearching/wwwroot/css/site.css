@@ -1,6 +1,39 @@
 ﻿body {
+    color: black;
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #efefef;
+    font: 100 20px 'Roboto';
+}
+
+.headlineFont {
+    font: 200 40px 'Roboto';
+    margin-top:10px;
+}
+
+.textTypeFont {
+    font: 900 20px 'Consolas';
+}
+
+.textFont{
+    font: 100 20px 'Roboto';
+}
+
+.initial {
+    all: initial;
+}
+
+.horizontalRule {
+    margin: 5px 0 20px 0;
+    border-color: black;
+    padding: 0.4px;
+    border: 1px solid;
+    width:100%;
+    background-color: black;
+}
+
+.whiteShade {
+    background-color: #f7f7f7;
 }
 
 /* Wrapping element */

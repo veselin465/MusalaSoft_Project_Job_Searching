@@ -1,0 +1,33 @@
+﻿@model JobSearching.ViewModels.AdvertDetailViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <environment include="Development">
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+
+</head>
+
+<p class="headlineFont">Information About Job Advertisement</p>
+
+<hr class="horizontalRule" />
+
+<ul>
+    <li><pre class="whiteShade"><span class="textTypeFont">Created by:   </span>  <span class="textFont">@Model.CompanyBossFirstName @Model.CompanyBossLastName</span> </pre> </li>
+    <li><pre class="whiteShade"><span class="textTypeFont" style="word-break:break-word;">Position:      </span><span class="textFont">@Model.Position</span> </pre></li>
+    <li><pre class="whiteShade"><span class="textTypeFont">Company Name:  </span><span class="textFont">@Model.CompanyName</span> </pre></li>
+    <li><pre class="whiteShade"><span class="textTypeFont">Contact Phone: </span><span class="textFont">@Model.ContactPhone</span> </pre></li>
+    <li><pre class="whiteShade"><span class="textTypeFont">Additional Information </span><br /><span class="textFont">@Model.Description</span> </pre></li>
+</ul>
+
+
+
+<div class="row">
+
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

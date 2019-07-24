@@ -12,4 +12,11 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JobSearching.Data.Models\JobSearching.Data.Models.csproj" />
+    <ProjectReference Include="..\JobSearching.Data\JobSearching.Data.csproj" />
+    <ProjectReference Include="..\JobSearching.Services\JobSearching.Services.csproj" />
+    <ProjectReference Include="..\JobSearching.ViewModels\JobSearching.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>
