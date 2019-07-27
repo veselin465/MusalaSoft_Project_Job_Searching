@@ -1532,7 +1532,7 @@
           "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {}
         }
       },
-      "Microsoft.CSharp/4.4.0": {
+      "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -1692,16 +1692,20 @@
       "Microsoft.EntityFrameworkCore.Analyzers/2.2.6": {
         "type": "package"
       },
-      "Microsoft.EntityFrameworkCore.Design/2.0.1": {
+      "Microsoft.EntityFrameworkCore.Design/2.2.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "2.0.1"
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.InMemory/2.0.1": {
@@ -1726,19 +1730,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "1.1.6",
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Sqlite/2.0.1": {
@@ -1772,20 +1763,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.6",
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Tools/2.0.1": {
@@ -4803,8 +4780,8 @@
         "dependencies": {
           "JobSearching.Data.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
-          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.6"
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
         },
         "compile": {
           "bin/placeholder/JobSearching.Data.dll": {}
@@ -5934,11 +5911,12 @@
         "microsoft.codeanalysis.razor.nuspec"
       ]
     },
-    "Microsoft.CSharp/4.4.0": {
-      "sha512": "vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "yWWeTbGCzBOlRPWDCIxiTZW1ecZiMbao0ZT97KKEWdBhrLvUqU8RdzkhzuCRQzvoxzxlR7vytO43OOgFdkxv6g==",
       "type": "package",
-      "path": "microsoft.csharp/4.4.0",
+      "path": "microsoft.csharp/4.5.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -5949,6 +5927,7 @@
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
         "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
         "lib/win8/_._",
         "lib/wp80/_._",
         "lib/wpa81/_._",
@@ -5956,7 +5935,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.4.0.nupkg.sha512",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -5987,6 +5966,7 @@
         "ref/netstandard2.0/Microsoft.CSharp.dll",
         "ref/netstandard2.0/Microsoft.CSharp.xml",
         "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
         "ref/win8/_._",
         "ref/wp80/_._",
         "ref/wpa81/_._",
@@ -6194,16 +6174,19 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/2.0.1": {
-      "sha512": "gEdT/YSI/buO15X/UN+gQY6D7qeozRYU80WuesZCj33jJBw4wCHHn8SYcp38k2BPOBDC4I2AfsOFH6Vaf8CeLQ==",
+    "Microsoft.EntityFrameworkCore.Design/2.2.6": {
+      "sha512": "xPLFcWOTbNLDI5vdbGWVSQI5TuS5KiCn+OF5TyiRCLJC5KdxuQsUeAlDHRmZuAOXXiwitDpvOdXmK3A/nPOVuA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/2.0.1",
+      "path": "microsoft.entityframeworkcore.design/2.2.6",
       "files": [
+        ".signature.p7s",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net461/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net461/Microsoft.EntityFrameworkCore.Design.xml",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.2.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -6228,20 +6211,6 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
         "microsoft.entityframeworkcore.relational.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
-      "sha512": "UVq94HrsK/eUSo4bkYBYW30UQ/uH2GoXcjTv7oIdeMKnAjLE3jm3C/BmftkQpr9beQCSbbcEySaVDhjlhrcQJQ==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.relational.design/1.1.6",
-      "files": [
-        ".signature.p7s",
-        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.dll",
-        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.xml",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.xml",
-        "microsoft.entityframeworkcore.relational.design.1.1.6.nupkg.sha512",
-        "microsoft.entityframeworkcore.relational.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Sqlite/2.0.1": {
@@ -6274,20 +6243,6 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
-      "sha512": "TBH6CWmLns4U38WO64Q9ecOcWdMHCdFX/2vM4aJtbrt2CftG4TbAY5/9BNVacw/64HbCv7Hzjk/5xU26gxL8Xg==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver.design/1.1.6",
-      "files": [
-        ".signature.p7s",
-        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.Design.dll",
-        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.Design.xml",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.xml",
-        "microsoft.entityframeworkcore.sqlserver.design.1.1.6.nupkg.sha512",
-        "microsoft.entityframeworkcore.sqlserver.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Tools/2.0.1": {
@@ -12789,11 +12744,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching\\JobSearching.csproj",
+      "projectUniqueName": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\JobSearching.csproj",
       "projectName": "JobSearching",
-      "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching\\JobSearching.csproj",
+      "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\JobSearching.csproj",
       "packagesPath": "C:\\Users\\Vesko\\.nuget\\packages\\",
-      "outputPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching\\obj\\",
+      "outputPath": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12812,17 +12767,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj": {
-              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj"
+            "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj": {
+              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj"
             },
-            "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj": {
-              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj"
+            "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj": {
+              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj"
             },
-            "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj": {
-              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj"
+            "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj": {
+              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj"
             },
-            "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj": {
-              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\Project JobSearching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj"
+            "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj": {
+              "projectPath": "E:\\IT Кариера - softuni\\MusalaSoft\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj"
             }
           }
         }
