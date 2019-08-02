@@ -102,13 +102,13 @@ namespace JobSearching.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(int employerId, string position, string descritpion)
+        public IActionResult Create(int employerId, string position, string description)
         {
             try
             {
-                this.service.CreateAd(employerId, position, descritpion);
+                this.service.CreateAd(employerId, position, description);
             }
-            catch (ArgumentException e)
+            catch (Exception e)
             {
                 return this.View("InvalidAction", new InvalidActionViewModel() { ErrorMessage = e.Message });
             }
