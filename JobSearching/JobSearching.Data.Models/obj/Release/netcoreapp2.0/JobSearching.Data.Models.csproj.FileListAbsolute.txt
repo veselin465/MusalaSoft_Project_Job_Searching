@@ -1,0 +1,7 @@
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data.Models\bin\Release\netcoreapp2.0\JobSearching.Data.Models.deps.json
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data.Models\bin\Release\netcoreapp2.0\JobSearching.Data.Models.dll
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data.Models\bin\Release\netcoreapp2.0\JobSearching.Data.Models.pdb
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data.Models\obj\Release\netcoreapp2.0\JobSearching.Data.Models.AssemblyInfoInputs.cache
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data.Models\obj\Release\netcoreapp2.0\JobSearching.Data.Models.AssemblyInfo.cs
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data.Models\obj\Release\netcoreapp2.0\JobSearching.Data.Models.dll
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data.Models\obj\Release\netcoreapp2.0\JobSearching.Data.Models.pdb

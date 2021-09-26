@@ -38,3 +38,16 @@ E:\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\net
 E:\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.runtimeconfig.dev.json
 E:\IT Кариера - softuni\MusalaSoft\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.runtimeconfig.json
 E:\IT Кариера - softuni\MusalaSoft\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.runtimeconfig.dev.json
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.deps.json
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.runtimeconfig.json
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.runtimeconfig.dev.json
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.dll
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.pdb
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.Models.dll
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\bin\Debug\netcoreapp2.0\JobSearching.Data.Models.pdb
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\obj\Debug\netcoreapp2.0\JobSearching.Data.csprojAssemblyReference.cache
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\obj\Debug\netcoreapp2.0\JobSearching.Data.AssemblyInfoInputs.cache
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\obj\Debug\netcoreapp2.0\JobSearching.Data.AssemblyInfo.cs
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\obj\Debug\netcoreapp2.0\JobSearching.Data.csproj.CopyComplete
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\obj\Debug\netcoreapp2.0\JobSearching.Data.dll
+E:\GitHub Data\MusalaSoft_Project_Job_Searching\JobSearching\JobSearching.Data\obj\Debug\netcoreapp2.0\JobSearching.Data.pdb

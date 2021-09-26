@@ -24,7 +24,7 @@ namespace JobSearching.Services
             {
                 throw new ArgumentException($"Cannot find the employer with id = {employerId}");
             }
-            if (!position.All(char.IsLetter))
+            if (position.All(char.IsDigit))
             {
                 throw new ArgumentException("The name of the position cannot contain numbers. Please enter a name that doesn't contain numbers.");
             }
@@ -116,9 +116,29 @@ namespace JobSearching.Services
 
         public int SignVolunteerToAnAd(int advertId)
         {
-            // Тук се прави връзката м/у реклама и потребител (JobVolunteer)
-            // Използвай синтаксис CurrentSigned.VolunteerId (статично)
-            throw new NotImplementedException("Impl. Map advert+volunteer");
+            /*
+            if(CurrentSigned.VolunteerId == -1)
+            {
+                return -1;
+            }
+
+            JobVolunteer jobVolunteer = new JobVolunteer
+            {
+                JobAdId = advertId,
+                VolunteerId = CurrentSigned.VolunteerId
+            };
+
+            context.JobVolunteer.Add(jobVolunteer);
+
+            context.SaveChanges();
+
+            
+
+            return CurrentSigned.VolunteerId;
+           */
+
+            throw new NotImplementedException("Not Implemented.");
+
         }
 
     }

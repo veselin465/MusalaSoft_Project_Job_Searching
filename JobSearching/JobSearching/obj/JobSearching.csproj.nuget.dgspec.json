@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\JobSearching.csproj": {}
+  },
+  "projects": {
+    "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj",
+        "projectName": "JobSearching.Data.Models",
+        "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\Vesko\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vesko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj",
+        "projectName": "JobSearching.Data",
+        "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj",
+        "packagesPath": "C:\\Users\\Vesko\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vesko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj": {
+                "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj",
+        "projectName": "JobSearching.Services",
+        "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj",
+        "packagesPath": "C:\\Users\\Vesko\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vesko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj": {
+                "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj"
+              },
+              "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj": {
+                "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj"
+              },
+              "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj": {
+                "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj",
+        "projectName": "JobSearching.ViewModels",
+        "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Vesko\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vesko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\JobSearching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\JobSearching.csproj",
+        "projectName": "JobSearching",
+        "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\JobSearching.csproj",
+        "packagesPath": "C:\\Users\\Vesko\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vesko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj": {
+                "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data.Models\\JobSearching.Data.Models.csproj"
+              },
+              "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj": {
+                "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Data\\JobSearching.Data.csproj"
+              },
+              "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj": {
+                "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.Services\\JobSearching.Services.csproj"
+              },
+              "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj": {
+                "projectPath": "E:\\GitHub Data\\MusalaSoft_Project_Job_Searching\\JobSearching\\JobSearching.ViewModels\\JobSearching.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -44,6 +44,8 @@ namespace JobSearching.Data
                 .HasOne(x => x.Volunteer)
                 .WithMany(e => e.JobAds)
                 .HasForeignKey(x => x.VolunteerId);
+
+            base.OnModelCreating(modelBuilder);
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

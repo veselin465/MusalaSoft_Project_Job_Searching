@@ -92,7 +92,7 @@ namespace JobSearching.Controllers
         {
             int volId = -1;
             volId = this.service.SignVolunteerToAnAd(id);
-            if(volId != -1)
+            if(volId == -1)
             {
                 TempData["username"] = "";
                 TempData["errorMsg"] = "You need to be LoggedIn";
